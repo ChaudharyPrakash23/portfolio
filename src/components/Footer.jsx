@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="bg-cyan-800 text-white py-4 mx-1 rounded-md mb-1">
       <div className="flex justify-center space-x-10">
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/profile.php?id=100011266808860"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -18,7 +18,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/prakash_chaudhary023/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -28,7 +28,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/prakash-chaudhary-24ab2527a/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -37,12 +37,16 @@ const Footer = () => {
             className="hover:text-blue-700 transition-all"
           />
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/ChaudharyPrakash23"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub size={30} className="hover:text-gray-600 transition-all" />
         </a>
       </div>
       <div>
-      <span className="text-sm md:text-lg flex justify-center my-4">
+        <span className="text-sm md:text-lg flex justify-center my-4">
           &copy; {currentYear} Prakash Chaudhary. All rights reserved.
         </span>
       </div>
