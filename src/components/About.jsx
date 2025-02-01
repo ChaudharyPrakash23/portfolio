@@ -136,7 +136,7 @@ const About = () => {
               <div className="w-full h-[40vh] lg:h-[40vh] bg-white rounded-md overflow-hidden shadow-inner p-4 text-left font-serif">
                 <motion.p
                   className="text-xl md:text-2xl lg:text-2xl font-semibold my-2 pl-8 text-red-500 italic"
-                  initial={{ opacity: 0, x: -50 }}
+                  initial={{x:200 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration:2 }}
                 >
@@ -144,30 +144,30 @@ const About = () => {
                 </motion.p>
                 <motion.p
                   className="text-lg md:text-2xl lg:text-2xl font-semibold my-2 pl-8 text-blue-500 italic"
-                  initial={{ opacity: 0, x: -50 }}
+                  initial={{ opacity: 0, x: 200 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.7 }}
+                  transition={{ duration:3 }}
                 >
                   ➡ +2 from ST. Thomas H.S
                 </motion.p>
                 <motion.p
                   className="text-lg md:text-2xl lg:text-2xl font-semibold my-2 pl-8 text-green-500 italic"
-                  initial={{ opacity: 0, x: -50 }}
+                  initial={{ opacity: 0, x: 200 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.9 }}
+                  transition={{ duration:4 }}
                 >
                   ➡ Diploma in Web Dev from Sipalaya IT Training Institute
                 </motion.p>
                 <motion.p
                   className="text-lg md:text-2xl lg:text-2xl font-semibold my-2 pl-8 text-red-500 italic"
-                  initial={{ opacity: 0, x: -50 }}
+                  initial={{ opacity: 0, x:200 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 1.1 }}
+                  transition={{ duration:5 }}
                 >
                   ➡ BE.IT from NCIT
                 </motion.p>
               </div>
-              {/* Animation of college students */}
+              {/* Animation at bottom students */}
               <div className="mt-6 w-full flex justify-center space-x-4">
                 <motion.div
                   className="w-8 h-8 bg-blue-500 rounded-full"

@@ -11,7 +11,6 @@ const Home = () => {
   return (
     <div>
            <div className="relative mx-1 my-1 rounded-md overflow-hidden">
-              {/* Home Page...................................................................... */}
               <div className="relative bg-white rounded-md">
                 {/* Particles Effect */}
                 <div className="relative rounded-md overflow-hidden">
