@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/Profile.png";
+import profile from "../Images/Profile.png";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
 import { motion } from "framer-motion";
