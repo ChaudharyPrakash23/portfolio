@@ -26,7 +26,7 @@ const Projects = () => {
             real-time.
           </p>
           <a
-            href="https://weather-app-by-prakash.netlify.app/"
+            href="https://myweatherapps1.netlify.app/"
             className="text-blue-500 mt-2"
           >
             View Project
